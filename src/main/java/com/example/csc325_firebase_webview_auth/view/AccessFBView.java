@@ -17,6 +17,7 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -28,7 +29,7 @@ import javafx.scene.control.TextField;
 public class AccessFBView {
 
 
-     @FXML
+    @FXML
     private TextField nameField;
     @FXML
     private TextField majorField;
@@ -73,6 +74,16 @@ public class AccessFBView {
      @FXML
     private void switchToSecondary() throws IOException {
         App.setRoot("/files/WebContainer.fxml");
+    }
+
+    @FXML
+    private void switchToRegister() throws IOException {
+        App.setRoot("/files/RegisterView.fxml");
+    }
+
+    @FXML
+    private void handleClose(ActionEvent event) {
+        Platform.exit();
     }
 
     public void addData() {

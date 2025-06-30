@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Added SplashScreen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/view/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/RegisterView.fxml" afterDir="false" />
+    <list default="true" id="e4ae5f67-a013-4cbc-a589-49fa29fa9b6b" name="Changes" comment="Added RegisterView and functionality to menubar">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/AccessFB.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/Register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/Splash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/Web.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/view/AccessFBView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc325_firebase_webview_auth/view/AccessFBView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/files/AccessFBView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/AccessFBView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/AccessFBView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/csc325_firebase_webview_auth/view/AccessFBView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/RegisterView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/RegisterView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/SplashScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/SplashScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/WebContainer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/WebContainer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/AccessFBView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/AccessFBView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/RegisterView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/RegisterView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/SplashScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/files/SplashScreen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
         <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,6 +67,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/alrajam/IdeaProjects/CSC325_Firebase_webview_Auth",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -166,7 +174,7 @@
       <workItem from="1710690942533" duration="7228000" />
       <workItem from="1710732741753" duration="608000" />
       <workItem from="1710733353801" duration="5503000" />
-      <workItem from="1751322313916" duration="2245000" />
+      <workItem from="1751322313916" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="reduce Java version to 17">
       <option name="closed" value="true" />
@@ -208,7 +216,31 @@
       <option name="project" value="LOCAL" />
       <updated>1751323793662</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added RegisterView and functionality to menubar">
+      <option name="closed" value="true" />
+      <created>1751324774419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751324774419</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added RegisterView and functionality to menubar">
+      <option name="closed" value="true" />
+      <created>1751324786202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751324786202</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added RegisterView and functionality to menubar">
+      <option name="closed" value="true" />
+      <created>1751324791964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751324791964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +255,7 @@
     <MESSAGE value="GUI update" />
     <MESSAGE value="Added Key" />
     <MESSAGE value="Added SplashScreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SplashScreen" />
+    <MESSAGE value="Added RegisterView and functionality to menubar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RegisterView and functionality to menubar" />
   </component>
 </project>

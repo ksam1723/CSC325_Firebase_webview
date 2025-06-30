@@ -1,0 +1,9 @@
+.menu-bar {
+    -fx-background-color: #994800;
+}
+
+.button {
+    -fx-background-color: #b87f31;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
